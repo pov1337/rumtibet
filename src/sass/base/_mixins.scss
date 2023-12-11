@@ -1,0 +1,46 @@
+.subtitle{
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $subtitle_color;
+    &_orientation{
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+
+    }
+    &_photo{
+        margin-top: 80px;
+        text-align: center;
+    }
+}
+
+.title{
+    font-family: Nunito Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:  #18121E;
+    &_orientation{
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+    &_photo{
+        text-align: center;
+        
+    }
+}

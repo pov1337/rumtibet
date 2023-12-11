@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200;400&family=Nunito+Sans:opsz,wght@6..12,500&family=Roboto:wght@300;400;700&display=swap');
+
+
+@font-face {
+    font-family: 'NEXT_ART_Bold'; 
+    src: url('../../fonts/NEXT_ART_Bold.otf') format('truetype'); // Замените на путь к файлу вашего шрифта
+    font-weight: 700;
+  }
+
+
+@font-face {
+    font-family: 'NEXT ART_Heavy';
+    src: local('NEXT ART_Heavy'), local('NEXT ART_Heavy'),
+    url('NEXT ART_Heavy.otf') format('truetype');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'NEXT ART_Light';
+    src: local('NEXT ART_Light'), local('NEXT ART_Light'),
+    url('NEXT ART_Light.otf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'NEXT ART_Regular';
+    src: local('NEXT ART_Regular'), local('NEXT ART_Regular'),
+    url('NEXT ART_Regular.otf') format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'NEXT ART_SemiBold';
+    src: local('NEXT ART_SemiBold'), local('NEXT ART_SemiBold'),
+    url('NEXT ART_SemiBold.otf') format('truetype');
+    font-weight: 600;
+}

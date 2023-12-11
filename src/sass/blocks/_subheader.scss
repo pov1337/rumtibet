@@ -1,0 +1,43 @@
+.subheader{
+    h1{
+        margin-top: 463px;
+        font-family: "NEXT_ART_Bold", sans-serif;
+        font-weight: 700;
+        color: $special_white;
+        text-transform: uppercase;
+        font-size: 50px;
+        line-height: 75px;
+        letter-spacing: 0.02em;
+        text-align: left;
+    }
+    &__wrapper{
+        width: 1180px;
+        height: 161px;
+        border-radius: 10px;
+        background-color: rgba($color: #ffffff, $alpha: .2);
+        backdrop-filter: blur(3px);
+        margin-top: 41px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__input{
+        margin: 0 12px;
+        
+        &:first-child{
+            margin-left: 30px;
+        }
+    }
+    &__descr{
+        color: #FDFDFD;
+        margin-top: 8px;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0px;
+        text-align: left;
+
+    }
+
+}

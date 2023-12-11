@@ -1,0 +1,84 @@
+.blog{
+    padding: 80px 0 100px 0;
+    background-color: #F3F5F4;
+    &__wrapper{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__card{
+        display: flex;
+        justify-content: center;
+        background-color: $special_white;
+        width: calc(50% - 10px);
+        height: 312px;
+        border-radius: 10px;
+        padding: 16px 16px;
+        margin-bottom: 24px;
+        
+        img{
+            width: 230px;
+            height: 280px;
+            border-radius: 10px;
+        }
+
+    }
+    &__text{
+        margin-left: 24px;
+        padding: 16px 0;
+        position: relative;
+    }
+    &__title{
+        font-family: Nunito Sans;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-decoration: none;
+        color: black;
+        transition: 0.2s all;
+        &:hover{
+            color: $main_color;
+            text-decoration: underline;
+        }
+    }
+    &__descr{
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        margin-top: 24px;
+
+    }
+    &__other{
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        bottom: 16px;
+    }
+    &__link{
+        margin-left: 90px;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-decoration: none;
+        color: $main_color;
+        transition: 2s all;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    &__date{
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: $subtitle_color;
+    }
+}

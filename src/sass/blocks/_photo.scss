@@ -1,0 +1,15 @@
+.photo{
+    margin-bottom: 198px;
+    &__wrapper {
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        justify-content: space-between;
+        
+        img{
+            margin-top: 10px;
+        }
+
+    }
+}

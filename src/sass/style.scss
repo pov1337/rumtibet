@@ -1,0 +1,29 @@
+@import 'base/fonts';
+@import 'base/variable';
+@import 'base/mixins';
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/subheader';
+@import 'blocks/dropdowns';
+@import 'blocks/tour';
+@import 'blocks/program.scss';
+@import 'blocks/orientation';
+@import 'blocks/blog';
+@import 'blocks/photo';
+@import 'blocks/footer';
+@import 'blocks/date';

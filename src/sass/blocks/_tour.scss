@@ -1,0 +1,59 @@
+.tour{
+    position: relative;
+    padding: 100px 0;
+    height: 726px;
+    display: flex;
+    justify-content: center;
+
+    &__img1{
+        position: absolute;
+        z-index: 0;
+        left: 370px;
+        top: 100px;
+        width: 350px;
+        height: 400px;
+    }
+    &__img2{
+        position: absolute;
+        z-index: 2;
+        width: 350px;
+        height: 400px;
+        left: 500px;
+        top: 226px;
+    }
+    &__wrapper{
+        position: absolute;
+        left: 920px;
+        top: 164px;
+    }
+    p{
+        margin-top: 40px;
+        font-family: Nunito Sans;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+    &__btn{
+        position: absolute;
+        z-index: 3;
+        left: 675px;
+        top: 426px;
+        transform: translate(-50%, -50%);
+        border: none;
+        border-radius: 100px;
+        img:hover{
+            transition: 0.5s all;
+            transform: scale(1.2);
+        }
+    }
+}
+
+
+
+.title{
+    margin-top: 8px;
+}
+

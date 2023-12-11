@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__links{
+        margin-left: 188px ;
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+        list-style-type: none;
+        li{
+            margin-top: 8px;
+            margin-left: 24px;
+            a{
+                transition: 0.5s all ;
+                font-family: Nunito Sans, sans-serif;
+                font-size: 15px;
+                font-weight: 300;
+                line-height: 25px;
+                text-align: left;
+                color: #FDFDFD;
+                text-decoration: none;
+                &:hover{
+                    color: $subtitle_color;
+                }
+            }
+            &:last-child{
+                margin-right: 48px;
+            }
+        }
+    }   
+}

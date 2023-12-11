@@ -1,0 +1,17 @@
+.subheader__date{
+    width: 135px;
+    height: 51px;
+    border: none;
+    background-color: rgba($color: #ffffff, $alpha: 0);
+    color-scheme: dark;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.subheader__dateinput{
+    background-color: rgba($color: #ffffff, $alpha: .1);
+    color: #ffffff;
+    color-scheme: dark;
+    border-radius: 6px;
+    border: 1px solid #FDFDFD;
+}

@@ -1,0 +1,56 @@
+.btn-secondary {
+    background-color: rgba($color: #ffffff, $alpha: .1); /* Измените на желаемый цвет фона */
+    color: #fff; /* Измените на желаемый цвет текста */
+    border: 1px solid #FDFDFD; /* Измените на желаемый цвет обводки */
+    width: 270px; /* Измените на желаемую ширину кнопки */
+    height: 52px;
+
+
+  }
+
+.btn-secondary:hover{
+    background-color: rgba($color: #ffffff, $alpha: .1); /* Измените на желаемый цвет фона */
+    color: #fff; /* Измените на желаемый цвет текста */
+    border: 1px solid #FDFDFD; /* Измените на желаемый цвет обводки */
+    width: 270px; /* Измените на желаемую ширину кнопки */
+    height: 52px;
+}
+.btn-secondary:active{
+    background-color: rgba($color: #ffffff, $alpha: .1); /* Измените на желаемый цвет фона */
+    color: #fff; /* Измените на желаемый цвет текста */
+    border: 1px solid #FDFDFD; /* Измените на желаемый цвет обводки */
+    width: 270px; /* Измените на желаемую ширину кнопки */
+    height: 52px;
+}
+
+.btn-secondary::after{
+    margin-left: 80px;
+}
+
+.dropdown-toggle::after {
+    transition: transform 0.3s ease-out;
+  }
+  
+.show.dropdown-toggle::after {
+    transform: rotate(180deg);
+}
+  
+.dropdown-menu{
+
+
+    .dropdown-header {
+        pointer-events: none; /* Делает элемент некликабельным */
+        font-weight: normal;    /* Можно настроить стили по вашему вкусу */
+        color: #FDFDFD;
+        background-color: #062424;
+    }
+
+
+    .dropdown-item{
+        color: $main_color;
+        &:hover{
+            background-color: $main_color;
+            color: #FDFDFD;
+        }
+    }
+} 
