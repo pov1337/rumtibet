@@ -82,7 +82,7 @@
 .promo {
   min-height: 857px;
   padding: 16px 0 82px 0;
-  background: url(../../img/background.png) center center/cover no-repeat;
+  background: url(./../img/background.png) center center/cover no-repeat;
   position: relative;
 }
 
@@ -411,13 +411,13 @@
   position: relative;
 }
 .orientation__bg.bg1 {
-  background: url(../../img/orientation_bg.png) center center/cover no-repeat;
+  background: url(./../img/orientation_bg.png) center center/cover no-repeat;
 }
 .orientation__bg.bg2 {
-  background: url(../../img/orientation_bg2.png) center center/cover no-repeat;
+  background: url(./../img/orientation_bg2.png) center center/cover no-repeat;
 }
 .orientation__bg.bg3 {
-  background: url(../../img/orientation_bg3.png) center center/cover no-repeat;
+  background: url(./../img/orientation_bg3.png) center center/cover no-repeat;
 }
 .orientation__bg:not(:last-child) {
   margin-right: 20px;
@@ -697,7 +697,7 @@
   text-decoration: none;
 }
 .footer__main .footer__links ul li:before {
-  content: url("../../img/arrow.svg");
+  content: url("./../img/arrow.svg");
   width: 20px;
   height: 20px;
   margin-right: 10px;
